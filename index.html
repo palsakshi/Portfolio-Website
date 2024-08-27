@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('z6efkhu88y5b');
+    </script>
+    <!-- End of Async Drift Code -->
+</head>
+
+<body>
+    <!----------------Header section-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="photo/logo.png" alt="">
+                <ul type="none" id="sidemenu">
+                    <li><a  href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Serices</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I am <span>Sakshi</span> <br> from Haryana</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------close header section-------------->
+
+
+    <!----------------------ABout section------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo/2nd.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        Aspiring Frontend Developer with a solid foundation in HTML, CSS, and JavaScript, complemented by a basic understanding of Backend technologies. Passionate about creating visually appealing, user-friendly websites and web applications. Eager to apply my knowledge to real-world projects, continuously learn new technologies, and contribute to a dynamic development team. I thrive in collaborative environments and am committed to writing clean, efficient code to deliver excellent user experiences.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skill')">Skills</p>
+                        <p class="tab-links" onclick='opentab("education")'>Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>Languages:</span><br />Javascript, php</li>
+                            <li><span>Frontend Technologies:</span><br />Html, Css, javascript, Bootstrap, Tailwind Css</li>
+                            <li><span>Backend Technologies:</span><br/>Php, Asp.net, Sql</li>
+                            <li><span>Developer Tools:</span><br />Git, Github,</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Diploma in Web Technology</span><br />Hartron skill centre, Yamuna Nagar<br />
+                                Aug2023-Aug2024</li>
+                            <li><span>Bachelor's of Science</span><br />Mukand Lal National College,YamunaNagar<br>
+                                2019-2022</li>
+                            <li><span>Senior Secondary</span> Govt. School , Khadari<br />2017-2019</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!----------------------close about sction----------->
+
+
+    <!-----------------------services-------------->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        Proficient in structuring web content using semantic HTML to create accessible and SEO-friendly websites. Comfortable with organizing content, embedding multimedia elements, and linking web pages.<br/>
+                        Skilled in designing responsive and visually appealing web pages using CSS. Able to implement layouts with Flexbox and Grid, style elements using custom properties, and create animations and transitions for a dynamic user experience.</br/>
+                        Capable of adding interactivity and functionality to websites through JavaScript. Experienced in manipulating the DOM, handling events, and using basic algorithms to solve problems.</p>
+                    <a target="_blank" style="font-size:18px;color:rgb(11, 11, 240);"
+                        href="https://www.google.com/search?q=web+development&rlz=1C1YTUH_enIN1100IN1100&oq=web+development&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgoIARAAGLEDGIAEMgwIAhAAGEMYgAQYigUyCggDEAAYsQMYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBggGEEUYPTIGCAcQRRg90gEINjE5OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8">Learn
+                        more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        Proficient in designing intuitive and visually appealing user interfaces that align with brand identity. Focused on ensuring consistency in design elements and layout for a seamless user experience.
+                        Skilled in understanding user needs and behaviors to create user-centered designs. Familiar with conducting user research, developing personas, and mapping user journeys. Capable of designing interfaces that are not only functional but also enjoyable to use, emphasizing usability and accessibility.
+                        Committed to creating designs that work across a variety of devices and screen sizes.</p>
+                    <a target="_blank" style="font-size:18px;color:rgb(6, 6, 232);"
+                        href="https://www.google.com/search?q=ui+ux+design&rlz=1C1YTUH_enIN1100IN1100&oq=ui+ux+design&gs_lcrp=EgZjaHJvbWUyEQgAEEUYORhDGLEDGIAEGIoFMgwIARAjGCcYgAQYigUyDQgCEAAYkgMYgAQYigUyBwgDEAAYgAQyDAgEEAAYQxiABBiKBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCTEwMzQ2ajBqN6gCCLACAQ&sourceid=chrome&ie=UTF-8">Learn
+                        more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h2>Version Control and Collaboration</h2>
+                    <p style="text-align: justify; padding-top: 20px;">
+                        Git/GitHub Integration: Managing code with version control systems like Git, enabling efficient collaboration with other developers and teams.
+                        Continuous Integration/Deployment (CI/CD): Setting up automated deployment pipelines to streamline updates and ensure that new features are deployed smoothly. </p>
+                    <a target="_blank" style="font-size:18px;color:rgb(9, 9, 238);"
+                        href="https://www.google.com/search?q=version+control+system&rlz=1C1YTUH_enIN1100IN1100&oq=version+control+system&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDcyNDdqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8">
+                        Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------close services------------->
+
+    <!--------------------portfolio------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="photo/2nd work.png" alt="">
+                    <img src="photo/work22.png" alt="">
+                    <img src="photo/2nd work.png" alt="">
+                    <div class="layer">
+                        <h3>E-Commerece Website</h3>
+                        <p style="text-align: justify; padding-top: 20px;">
+                        <ul>
+                            <li style="padding-bottom: 5px;">Build complete frontend of E-Commerce website with Html,
+                                Css and Javascript.</li>
+                            <li style="padding-bottom: 5px;">Show more product of same quality with different color.
+                            </li>
+                        </ul>
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="photo/work1.png" alt="">
+                    <img src="photo/work333.png" alt="">
+                    <img src="photo/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Weather app</h3>
+                        <p style="text-align: justify; padding-top: 20px;">
+                        <ul>
+                            <li style="padding-bottom: 5px;">Build complete Weather-app with frontend in Html, Css and
+                                Javascript.</li>
+                            <li style="padding-bottom: 5px;">Change the weather according to the location with API and
+                                location weather also change according to the temprature. </li>
+                            <li style="padding-bottom: 5px;">This weather app also show the humidity and wind speed
+                                according to the location.</li>
+                        </ul>
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="photo/work4.png" alt="">
+                    <img src=" photo/work44.png" alt="">
+                    <img src="photo/work44.png" alt="">
+                    <div class="layer">
+                        <h3>Food Delivery wesite</h3>
+                        <p style="text-align: justify; padding-top: 20px;">
+                        <ul>
+                            <li style="padding-bottom: 5px;">Build complete frontend food delivery website with Html,Css
+                                and JavaScript </li>
+                            <li style="padding-bottom: 5px;"> It is fully Responsive in mobile and tab devices </li>
+                        </ul>
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------------------close portfolio------------->
+
+    <!-----------------------contact----------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>dummy@gamil.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 XXXXXXXXXX</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-this-google-form">
+                        <input type="text" name="name" placeholder="Your Name" required /><br>
+                        <input type="email" name="email" placeholder=" Your Email" required /><br>
+                        <textarea type="message" rows="5" placeholder=" Your Message"></textarea><br>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright 2024 © Sakshi. All rights reserved. Made with <i class="fas fa-heart"></i> by Sakshi.</p>
+        </div>
+    </div>
+
+    <!-------------------------close contact------------------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
