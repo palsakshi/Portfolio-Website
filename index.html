@@ -9,34 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- Start of Async Drift Code -->
-<script>
-    "use strict";
-    
-    !function() {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-        t.factory = function(e) {
-          return function() {
-            var n = Array.prototype.slice.call(arguments);
-            return n.unshift(e), t.push(n), t;
-          };
-        }, t.methods.forEach(function(e) {
-          t[e] = t.factory(e);
-        }), t.load = function(t) {
-          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-          var i = document.getElementsByTagName("script")[0];
-          i.parentNode.insertBefore(o, i);
-        };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('z6efkhu88y5b');
-    </script>
-    <!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -171,7 +143,7 @@
                             </li>
                         </ul>
                         </p>
-                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://palsakshi.github.io/E-Commerce-Website/"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
 
@@ -191,7 +163,7 @@
                                 according to the location.</li>
                         </ul>
                         </p>
-                        <a href=""><i class="fas fa-external-link-alt"></i> </a>
+                        <a href=" https://palsakshi.github.io/Weather-app/"><i class="fas fa-external-link-alt"></i> </a>
                     </div>
                 </div>
                 <div class="work">
@@ -207,7 +179,7 @@
                             <li style="padding-bottom: 5px;"> It is fully Responsive in mobile and tab devices </li>
                         </ul>
                         </p>
-                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://palsakshi.github.io/Food-Delivery/"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
@@ -223,12 +195,12 @@
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i>dummy@gamil.com</p>
-                    <p><i class="fa-solid fa-phone"></i>+91 XXXXXXXXXX</p>
+                    <p><i class="fa-solid fa-envelope"></i>pal74089@gamil.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 9996002881</p>
                     <div class="social-icons">
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/sakshi-pal-478926314/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/palsakshi"><i class="fa-brands fa-github"></i></a>
+                        <a href="UCNOmA1ztpjaKllZVp90hrUg"><i class="fa-brands fa-youtube"></i></a>
                         <a href=""><i class="fa-brands fa-square-instagram"></i></a>
                         <a href=""><i class="fa-brands fa-facebook"></i></a>
                     </div>
@@ -252,33 +224,22 @@
     </div>
 
     <!-------------------------close contact------------------->
-
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
         }
-    </script>
-
-    <script>
-        var sidemenu = document.getElementById('sidemenu');
-
-        function openmenu(){
-            sidemenu.style.right="0";
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
         }
-
-        function closemenu(){
-            sidemenu.style.right= "-200px";
-        }
-    </script>
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+    
+<script src="script.js"></script>
 
 </body>
 
