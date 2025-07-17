@@ -163,6 +163,22 @@
   .active-tab {
     display: block;
   }
+  .jobTime{
+    display:flex;
+    gap:30px;
+    padding-top: 10px;
+  }
+  .location i{
+    color:#fff;
+    
+    margin-top: 6px;
+  }
+  .inside h6{
+    padding-left:10px;
+    padding-top: 8px;
+    font-size: 12px;
+    color: #fff;
+  }
   /*  services*/
 
   #service{
